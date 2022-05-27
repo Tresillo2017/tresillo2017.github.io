@@ -38,7 +38,7 @@ projects = [
 
 help = [
     "<br>",
-    '<span class="command">whois</span>          Who am I?',
+    '<span class="command">about</span>          Who am I?',
     '<span class="command">social</span>         Display Social Media',
     '<span class="command">secret</span>         Find Secret Stuff',
     '<span class="command">projects</span>       View Projects',
