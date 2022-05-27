@@ -46,7 +46,6 @@ help = [
     '<span class="command">help</span>           I Have Fallen and Cannot Get Up',
     '<span class="command">email</span>          Pointless to Email Me',
     '<span class="command">clear</span>          Clear Search History',
-    '<span class="command">banner</span>         Display Start Menu',
     "<br>",
 ];
 
