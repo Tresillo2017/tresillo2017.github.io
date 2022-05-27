@@ -5,7 +5,7 @@ const password = "sus";
 const github = "https://github.com/HyperSkys/";
 var email = 'mailto:contact@hyperskys.dev';
 
-whois = [
+about = [
     "<br>",
     "Hey, I am HyperSkys! 👋",
     "I'm a software engineer, who mainly does works on Java but also",
