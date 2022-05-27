@@ -81,8 +81,8 @@ function commander(cmd) {
         case "help":
             loopLines(help, "color2 margin", 80);
             break;
-        case "whois":
-            loopLines(whois, "color2 margin", 80);
+        case "about":
+            loopLines(about, "color2 margin", 80);
             break;
         case "obamaslastname":
             addLine("Imagine not having permission, sucks to suck.", "error", 100);
