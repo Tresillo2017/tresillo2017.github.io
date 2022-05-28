@@ -16,12 +16,47 @@ setTimeout(function() {
 window.addEventListener("keyup", enterKey);
 
 console.log(
-    "%cHAXOR ALERT!!!",
-    "color: #04ff00; font-weight: bold; font-size: 24px;"
+  "%c⚠️ Hold Up ⚠️",
+  "color: #1f3a6e; font-weight: bold; font-size: 24px;"
 );
-console.log("%cPassword: '" + password + "' - I wonder what it does well I don't wonder because I know but yeah.", "color: grey");
+console.log(
+  "%cDo not paste anything in here if someone told you to, you most likely will be hacked.",
+  "color: #b2b8c2; font-size: 16px;"
+);
 
-//init
+console.log(
+    "%c⚠️ Hold Up ⚠️",
+    "color: #1f3a6e; font-weight: bold; font-size: 24px;"
+);
+console.log(
+    "%cDo not paste anything in here if someone told you to, you most likely will be hacked.",
+    "color: #b2b8c2; font-size: 16px;"
+);
+
+console.log(
+    "%c⚠️ Hold Up ⚠️",
+    "color: #1f3a6e; font-weight: bold; font-size: 24px;"
+);
+console.log(
+    "%cDo not paste anything in here if someone told you to, you most likely will be hacked.",
+    "color: #b2b8c2; font-size: 16px;"
+);
+
+console.log(
+    "%c⚠️ Hold Up ⚠️",
+    "color: #1f3a6e; font-weight: bold; font-size: 24px;"
+);
+console.log(
+    "%cDo not paste anything in here if someone told you to, you most likely will be hacked.",
+    "color: #b2b8c2; font-size: 16px;"
+);
+
+console.log(
+    "%c⚠️ Scary Hacker Alert ⚠️",
+    "color: #ab2222; font-weight: bold; font-size: 24px;"
+);
+console.log("%cAdmin Password: '" + password + "' - You probably expected the password to be here.", "color: grey");
+
 textarea.value = "";
 command.innerHTML = textarea.value;
 
