@@ -31,6 +31,13 @@ secret = [
     "<br>"
 ];
 
+version = [
+    "<br>",
+    "Author: HyperSkys",
+    "Version: v1.0.5",
+    "<br>",
+];
+
 projects = [
     "<br>",
     "Uh no... most projects are private, on GitHub, or top secret.",
@@ -40,6 +47,7 @@ projects = [
 help = [
     "<br>",
     '<span class="command">about</span>          Who am I?',
+    '<span class="command">version</span>        View Version',
     '<span class="command">social</span>         Display Social Media',
     '<span class="command">secret</span>         Find Secret Stuff',
     '<span class="command">projects</span>       View Projects',

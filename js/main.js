@@ -138,7 +138,7 @@ function commander(cmd) {
             }, 1000);
                 break;
         case "version":
-            addLine("Current Version: v1.0.4", "color2", 80);
+            loopLines(version, "color2 margin", 80);
                 break;
         default:
             addLine("<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>.</span>", "error", 100);
