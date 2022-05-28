@@ -16,8 +16,8 @@ function nl2br(txt) {
 
 function typeIt(from, e) {
     e = e || window;
-    var w = $("typer");
-    var tw = from.value;
+    const w = $("typer");
+    const tw = from.value;
     if (!pw){
         w.innerHTML = nl2br(tw);
     }

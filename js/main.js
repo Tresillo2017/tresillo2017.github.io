@@ -37,7 +37,7 @@ function enterKey(e) {
             pwd = true;
         }
         if (pwd && e.keyCode === 13) {
-            loopLines(secret, "color2 margin", 120);
+            loopLines(admin, "color2 margin", 120);
             command.innerHTML = "";
             textarea.value = "";
             pwd = false;
@@ -85,7 +85,7 @@ function commander(cmd) {
             loopLines(about, "color2 margin", 80);
             break;
         case "obamaslastname":
-            addLine("Imagine not having permission, sucks to suck.", "error", 100);
+            addLine("Imagine not having permission, couldn't be me.", "error", 100);
             setTimeout(function() {
                 window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
             }, 1000);
@@ -93,7 +93,7 @@ function commander(cmd) {
         case "social":
             loopLines(social, "color2 margin", 80);
             break;
-        case "secret":
+        case "admin":
             liner.classList.add("password");
             pw = true;
             break;
@@ -101,16 +101,13 @@ function commander(cmd) {
             loopLines(projects, "color2 margin", 80);
             break;
         case "password":
-            addLine("<span class=\"inherit\">You\'re going to have to try harder than that.</span>", "error", 100);
+            addLine("<span class=\"error\">You\'re going to have to try harder than that.</span>", "error", 100);
             break;
         case "history":
             addLine("<br>", "", 0);
+            addLine("These are the commands you have ran: ", "inherit", 0)
             loopLines(commands, "color2", 80);
             addLine("<br>", "command", 80 * commands.length + 50);
-            break;
-        case "email":
-            addLine('Opening mailto:<a href="mailto:contact@hyperskys.dev">contact@hyperskys.dev</a>...', "color2", 80);
-            newTab(email);
             break;
         case "clear":
             setTimeout(function() {
@@ -120,19 +117,19 @@ function commander(cmd) {
             loopLines(banner, "", 80)
             break;
         case "youtube":
-            addLine("Opening YouTube...", "color2", 80);
+            addLine("Opening my Youtube Webpage.", "color2", 80);
             newTab(youtube);
             break;
         case "twitter":
-            addLine("Opening Twitter...", "color2", 80);
+            addLine("Opening my Twitter Webpage.", "color2", 80);
             newTab(twitter);
             break;
         case "github":
-            addLine("Opening GitHub...", "color2", 80);
+            addLine("Opening my Github Webpage.", "color2", 80);
             newTab(github);
             break;
         case "onlyfans":
-            addLine("You've already messed up, nice try.", "error", 80);
+            addLine("You actually thought I had an onlyfans, weird.", "error", 80);
             setTimeout(function() {
                 window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
             }, 1000);
@@ -153,7 +150,7 @@ function newTab(link) {
 }
 
 function addLine(text, style, time) {
-    var t = "";
+    let t = "";
     for (let i = 0; i < text.length; i++) {
         if (text.charAt(i) === " " && text.charAt(i + 1) === " ") {
             t += "&nbsp;&nbsp;";
@@ -163,7 +160,7 @@ function addLine(text, style, time) {
         }
     }
     setTimeout(function() {
-        var next = document.createElement("p");
+        const next = document.createElement("p");
         next.innerHTML = t;
         next.className = style;
 

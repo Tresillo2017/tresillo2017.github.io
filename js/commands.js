@@ -1,9 +1,8 @@
 const youtube = "https://www.youtube.com/channel/UCUW7jV8cMWfAIG9WGovxE5g";
 const twitter = "https://www.twitter.com/HyperSkysMC";
 const onlyfans = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
-const password = "sus";
 const github = "https://github.com/HyperSkys/";
-var email = 'mailto:contact@hyperskys.dev';
+const password = "sus";
 
 about = [
     "<br>",
@@ -25,7 +24,7 @@ social = [
     "<br>"
 ];
 
-secret = [
+admin = [
     "<br>",
     '<span class="command">obamaslastname</span>           Top Secret only for Administrators',
     "<br>"
@@ -34,7 +33,7 @@ secret = [
 version = [
     "<br>",
     "Author: HyperSkys",
-    "Version: v1.0.5",
+    "Version: v1.1.0",
     "<br>",
 ];
 
@@ -46,15 +45,14 @@ projects = [
 
 help = [
     "<br>",
-    '<span class="command">about</span>          Who am I?',
+    '<span class="command">about</span>          About Me',
     '<span class="command">version</span>        View Version',
     '<span class="command">social</span>         Display Social Media',
-    '<span class="command">secret</span>         Find Secret Stuff',
-    '<span class="command">projects</span>       View Projects',
-    '<span class="command">history</span>        View Search History 😳',
-    '<span class="command">help</span>           I Have Fallen and Cannot Get Up',
-    '<span class="command">email</span>          Pointless to Email Me',
-    '<span class="command">clear</span>          Clear Search History',
+    '<span class="command">admin</span>          Top Secret',
+    '<span class="command">projects</span>       View My Projects',
+    '<span class="command">history</span>        View Command History',
+    '<span class="command">help</span>           View A List of Commands',
+    '<span class="command">clear</span>          Clear the Console',
     "<br>",
 ];
 
