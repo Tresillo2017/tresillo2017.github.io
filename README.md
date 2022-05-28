@@ -5,3 +5,10 @@
 ![Discord](https://img.shields.io/discord/898154272636678196?color=5865F2&label=Discord&logo=Discord&labelColor=23272a&style=for-the-badge)
 
 **My Portfolio Website** for people inquiring about it.
+
+### Information
+
+This is my portfolio website, very simple console based design. Feel free to use some of the features or the idea please do not steal the code without crediting me.
+
+## License
+This project is licensed under [Eclipse Public License](https://github.com/HyperSkys/Google-Kickstart/blob/main/LICENSE)
