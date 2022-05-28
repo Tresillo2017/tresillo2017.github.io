@@ -124,18 +124,21 @@ function commander(cmd) {
             newTab(youtube);
             break;
         case "twitter":
-            addLine("Opening Twitter...", "color2", 0);
+            addLine("Opening Twitter...", "color2", 80);
             newTab(twitter);
             break;
         case "github":
-            addLine("Opening GitHub...", "color2", 0);
+            addLine("Opening GitHub...", "color2", 80);
             newTab(github);
             break;
         case "onlyfans":
-            addLine("You've already messed up, nice try.", "error", 100);
+            addLine("You've already messed up, nice try.", "error", 80);
             setTimeout(function() {
                 window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
             }, 1000);
+                break;
+        case "version":
+            addLine("Current Version: v1.0.4", "color2", 80);
                 break;
         default:
             addLine("<span class=\"inherit\">Command not found. For a list of commands, type <span class=\"command\">'help'</span>.</span>", "error", 100);
