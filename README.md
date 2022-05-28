@@ -10,5 +10,13 @@
 
 This is my portfolio website, very simple console based design. Feel free to use some of the features or the idea please do not steal the code without crediting me.
 
+### Download
+
+You can download this website and edit it by clicking the green code button and clicking the **Download Zip** button if you are having an issue please submit a issue form.
+
+### Credit
+
+Credit to FKCodes for the entire idea and most of the CSS stuff, I took my own spin on it with a few more features and some changes as well the secret idea was very nice gives the user a reason to stay on the site.
+
 ## License
 This project is licensed under [Eclipse Public License](https://github.com/HyperSkys/Google-Kickstart/blob/main/LICENSE)
