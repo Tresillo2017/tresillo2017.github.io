@@ -17,10 +17,10 @@ about = [
 
 social = [
     "<br>",
-    'youtube        <a href="' + youtube + '" target="_blank">youtube/channel/UCUW7jV8cMWfAIG9WGovxE5g' + "</a>",
-    'twitter        <a href="' + twitter + '" target="_blank">twitter/hyperskysmc' + '</a>',
-    'github         <a href="' + github + '" target="_blank">github/hyperskys' + "</a>",
-    'onlyfans       <a href="' + onlyfans + '" target="_blank">onlyfans/hidden' + "</a>",
+    'youtube        <a target="_blank">View my YouTube Channel' + "</a>",
+    'twitter        <a target="_blank">View my Twitter Account' + '</a>',
+    'github         <a target="_blank">View my GitHub Account' + "</a>",
+    'onlyfans       <a target="_blank">View my OnlyFans Account' + "</a>",
     "<br>"
 ];
 
