@@ -7,11 +7,12 @@ var email = 'mailto:contact@hyperskys.dev';
 
 about = [
     "<br>",
-    "Hey, I am HyperSkys! 👋",
-    "I'm a software engineer, who mainly does works on Java but also",
-    "does other things such as making websites, and other fun stuff I do when I'm bored.",
-    "I am currently a senior in high school and at the time of this making I have graduated,",
-    "I am planning on moving to California to take on my dream of being a software engineer.",
+    "Hello, I am HyperSkys! 🙋‍♂️",
+    "I'm a software engineer, who primarly works in Java Development,",
+    "and also other things such as making websites, making games, ect.",
+    "At the time of making this website I have graduated High School,",
+    "I am planning on moving to Los Angeles, California to take on my",
+    "dream of being a Software Engineer at Tesla or SpaceX.",
     "<br>"
 ];
 
