@@ -15,41 +15,16 @@ setTimeout(function() {
 
 window.addEventListener("keyup", enterKey);
 
-console.log(
-  "%c⚠️ Hold Up ⚠️",
-  "color: #1f3a6e; font-weight: bold; font-size: 24px;"
-);
-console.log(
-  "%cDo not paste anything in here if someone told you to, you most likely will be hacked.",
-  "color: #b2b8c2; font-size: 16px;"
-);
-
-console.log(
-    "%c⚠️ Hold Up ⚠️",
-    "color: #1f3a6e; font-weight: bold; font-size: 24px;"
-);
-console.log(
-    "%cDo not paste anything in here if someone told you to, you most likely will be hacked.",
-    "color: #b2b8c2; font-size: 16px;"
-);
-
-console.log(
-    "%c⚠️ Hold Up ⚠️",
-    "color: #1f3a6e; font-weight: bold; font-size: 24px;"
-);
-console.log(
-    "%cDo not paste anything in here if someone told you to, you most likely will be hacked.",
-    "color: #b2b8c2; font-size: 16px;"
-);
-
-console.log(
-    "%c⚠️ Hold Up ⚠️",
-    "color: #1f3a6e; font-weight: bold; font-size: 24px;"
-);
-console.log(
-    "%cDo not paste anything in here if someone told you to, you most likely will be hacked.",
-    "color: #b2b8c2; font-size: 16px;"
-);
+for (let i = 0; i < 5; i++) {
+    console.log(
+        "%c⚠️ Hold Up ⚠️",
+        "color: #1f3a6e; font-weight: bold; font-size: 24px;"
+    );
+    console.log(
+        "%cDo not paste anything in here if someone told you to, you most likely will be hacked.",
+        "color: #b2b8c2; font-size: 16px;"
+    );
+}
 
 console.log(
     "%c⚠️ Scary Hacker Alert ⚠️",
