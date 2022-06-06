@@ -12,10 +12,10 @@ about = [
     "At the time of making this website I have graduated High School,",
     "I am planning on moving to Los Angeles, California to take on my",
     "dream of being a Software Engineer at Tesla or SpaceX.",
-    ""
-    "I have been doing Java Development for over 5 years now,"
-    "as well I have been doing Server Administration for,"
-    "another 2 years. I am open to turn great ideas into reality."
+    "",
+    "I have been doing Java Development for over 5 years now,",
+    "as well I have been doing Server Administration for,",
+    "another 2 years. I am open to turn great ideas into reality.",
     "<br>"
 ];
 
