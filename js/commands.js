@@ -14,8 +14,8 @@ about = [
     "dream of being a Software Engineer at Tesla or SpaceX.",
     "<br>",
     "I have been doing Java Development for over 5 years now,",
-    "as well I have been doing Server Administration for,",
-    "another 2 years. I am open to turn great ideas into reality.",
+    "as well I have been doing Server Administration for amother 2,",
+    "I am gladly open to turn exellent ideas into reality.",
     "<br>"
 ];
 
