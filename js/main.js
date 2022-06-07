@@ -100,6 +100,12 @@ function commander(cmd) {
                 window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
             }, 1000);
             break;
+        case "topple":
+            addLine("Hey, iusemeteor how are you?")
+            setTimeout(function() {
+                window.open('https://www.pornhub.com/view_video.php?viewkey=ph62251209de802');
+            }, 1000);
+            break;
         case "social":
             loopLines(social, "color2 margin", 80);
             break;
