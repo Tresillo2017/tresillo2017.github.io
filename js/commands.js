@@ -7,7 +7,7 @@ const password = "You have to call me on Discord first.";
 about = [
     "<br>",
     "Hello, I am Tresillo! 🙋‍♂️",
-    "I'm a software engineer, who primarly works in projects,",
+    "I'm a teenager, who primarly works in projects,",
     "and also other things such as making websites, making games, ect.",
     "I am planning on moving to Los Angeles, California",
     "<br>",
@@ -34,7 +34,7 @@ admin = [
 
 version = [
     "<br>",
-    "Author: HyperSkys",
+    "Author: Tresillo",
     "Version: v1.1.0",
     "<br>",
 ];
