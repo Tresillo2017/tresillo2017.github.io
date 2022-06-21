@@ -1,20 +1,18 @@
-const youtube = "https://www.youtube.com/channel/UCUW7jV8cMWfAIG9WGovxE5g";
-const twitter = "https://www.twitter.com/HyperSkysMC";
+const youtube = "https://www.youtube.com/channel/UCs1AioKBb9AYuRUI_6Si1tg";
+const twitter = "https://twitter.com/toomas_ps";
 const onlyfans = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
-const github = "https://github.com/HyperSkys/";
+const github = "https://github.com/tresillo2017/";
 const password = "You have to call me on Discord first.";
 
 about = [
     "<br>",
-    "Hello, I am HyperSkys! 🙋‍♂️",
-    "I'm a software engineer, who primarly works in Java Development,",
+    "Hello, I am Tresillo! 🙋‍♂️",
+    "I'm a software engineer, who primarly works in projects,",
     "and also other things such as making websites, making games, ect.",
-    "At the time of making this website I have graduated High School,",
-    "I am planning on moving to Los Angeles, California to take on my",
-    "dream of being a Software Engineer at Tesla or SpaceX.",
+    "I am planning on moving to Los Angeles, California",
     "<br>",
-    "I have been doing Java Development for over 5 years now,",
-    "as well I have been doing Server Administration for another 2,",
+    "I have been doing Python for over 5 years now,",
+    "as well I have been doing Server Administration since 2022,",
     "I am gladly open to turn excellent ideas into reality.",
     "<br>"
 ];
@@ -61,12 +59,11 @@ help = [
 ];
 
 banner = [
-    " ____  ____                                     ______   __                       ",
-    "|_   ||   _|                                  .' ____ \\ [  |  _                   ",
-    "  | |__| |    _   __  _ .--.   .---.  _ .--.  | (___ \\_| | | / ]   _   __  .--.   ",
-    "  |  __  |   [ \\ [  ][ '/'`\\ \\/ /__\\\\[ `/'`\\]  _.____`.  | '' <   [ \\ [  ]( (`\\]  ",
-    " _| |  | |_   \\ '/ /  | \\__/ || \\__., | |     | \\____) | | |`\\ \\   \\ '/ /  `'.'.  ",
-    "|____||____|[\\_:  /   | ;.__/  '.__.'[___]     \\______.'[__|  \\_][\\_:  /  [\\__) ) ",
-    "             \\__.'   [__|                                         \\__.'           ",
+    "  _______            _ _ _    ",
+    " |__   __|          (_) | |      ",
+    "    | |_ __ ___  ___ _| | | ___  ",
+    "    | | '__/ _ \/ __| | | |/ _ \ ",
+    "    | | | |  __/\__ \ | | | (_) |",
+    "    |_|_|  \___||___/_|_|_|\___/ ",
     "<span class=\"color2\">For a list of available commands, type</span> <span class=\"command\">'help'</span><span class=\"color2\">.</span>",
 ];
