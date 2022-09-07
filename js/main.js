@@ -88,6 +88,12 @@ function enterKey(e) {
 
 function commander(cmd) {
     switch (cmd.toLowerCase()) {
+        case "obamaslastname":
+           addLine("Opening blog", 100);
+           setTimeout(function() {
+               window.open('https://blog.tomasps.tk');
+            }, 1000);
+            break;
         case "help":
             loopLines(help, "color2 margin", 80);
             break;
