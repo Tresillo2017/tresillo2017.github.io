@@ -55,6 +55,7 @@ help = [
     '<span class="command">history</span>        View Command History',
     '<span class="command">help</span>           View A List of Commands',
     '<span class="command">clear</span>          Clear the Console',
+    '<span class="command">blog</span>           Opens up the blog',
     "<br>",
 ];
 
