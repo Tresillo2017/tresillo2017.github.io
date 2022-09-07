@@ -64,7 +64,7 @@ function enterKey(e) {
         if (e.keyCode === 13) {
             commands.push(command.innerHTML);
             git = commands.length;
-            addLine("guest@tomasps.tk:~$ " + command.innerHTML, "no-animation", 0);
+            addLine("user@tomasps.tk:~$ " + command.innerHTML, "no-animation", 0);
             commander(command.innerHTML.toLowerCase());
             command.innerHTML = "";
             textarea.value = "";
@@ -101,9 +101,9 @@ function commander(cmd) {
             }, 1000);
             break;
         case "topple":
-            addLine("Hey, iusemeteor how are you?")
+            addLine("Hey, vicboy22 how are you?")
             setTimeout(function() {
-                window.open('https://www.pornhub.com/view_video.php?viewkey=ph62251209de802');
+                window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
             }, 1000);
             break;
         case "social":
